@@ -1,0 +1,75 @@
+.profile-page {
+  /* shadows */
+}
+.profile-page .box-shadow {
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+.profile-page input,
+.profile-page select,
+.profile-page textarea {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #030303;
+  border: none;
+  font-size: 12px;
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 10px!important;
+  margin-right: 10px!important;
+  width: 100%;
+}
+.profile-page textarea {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.profile-page h1 {
+  margin: 40px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #0088cc;
+  line-height: 80px;
+}
+@media (max-width: 780px) {
+  .profile-page h1 {
+    font-size: 50px;
+  }
+}
+.profile-page h2 {
+  text-transform: uppercase;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 24px;
+  color: #000;
+  margin: 20px 0;
+}
+.profile-page form {
+  width: 100%;
+  max-width: 470px;
+  position: relative;
+}
+.profile-page form .fa-thumbs-up {
+  font-size: 36px;
+  color: #303030;
+  margin-left: 12px;
+  margin-top: 5px;
+  vertical-align: bottom;
+}
+.profile-page form .fa-thumbs-up span {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+  width: 160px;
+  display: block;
+  float: left;
+}
+.profile-page form .fa-thumbs-up:before {
+  float: left;
+}

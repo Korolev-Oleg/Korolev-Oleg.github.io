@@ -1,0 +1,64 @@
+.authorization-page h1 {
+  margin: 40px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #0088cc;
+  line-height: 80px;
+}
+@media (max-width: 780px) {
+  .authorization-page h1 {
+    font-size: 32px;
+  }
+}
+.authorization-page h2 {
+  text-transform: uppercase;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 24px;
+  color: #000;
+  margin: 20px 0;
+}
+.authorization-page .box-shadow {
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+.authorization-page input,
+.authorization-page select,
+.authorization-page textarea {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #030303;
+  border: none;
+  font-size: 12px;
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 10px!important;
+  margin-right: 10px!important;
+  width: 100%;
+}
+.authorization-page textarea {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.authorization-page form {
+  width: 100%;
+  max-width: 470px;
+  position: relative;
+}
+.authorization-page form a {
+  color: #0088cc;
+  border-bottom: 1px solid rgba(0, 136, 204, 0.5);
+  font-size: 12px;
+  margin-left: 20px;
+}
+.authorization-page form a:hover {
+  color: #d04000;
+  border-bottom: 1px solid rgba(208, 64, 0, 0.5);
+}

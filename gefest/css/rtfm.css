@@ -1,0 +1,96 @@
+.rtfm-page h1 {
+  margin: 40px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  #font-size: 72px;
+  font-size: 48px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #0088cc;
+}
+@media (max-width: 780px) {
+  .rtfm-page h1 {
+    font-size: 50px;
+  }
+}
+.rtfm-page #tabs {
+  background-color: #fff;
+}
+.rtfm-page #tabs .tabs-control a,
+.rtfm-page #tabs .tabs-control a:hover {
+  border: none!important;
+  height: inherit;
+  width: inherit;
+  display: block;
+  padding: 20px 20px;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.rtfm-page #tabs #tabs_container {
+  /* padding: 40px; */
+  border-top: 5px solid #0088cc;
+  position: relative;
+}
+.rtfm-page #tabs #tabs_container .tab-header {
+  position: relative;
+  /* background: url('/img/img_rtfm_text.jpg') top no-repeat; */
+}
+.rtfm-page #tabs #tabs_container .tab-header img {
+  width: 100%;
+}
+.rtfm-page #tabs #tabs_container .tab-header h3 {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  color: #fff;
+  font-size: 36px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+@media (max-width: 520px) {
+  .rtfm-page #tabs #tabs_container .tab-header h3 {
+    font-size: 14px;
+    bottom: 20px;
+    left: 20px;
+  }
+}
+.rtfm-page #tabs #tabs_container .tab-content {
+  /* padding: 40px; */
+}
+.rtfm-page #tabs #tabs_container .tab-content ul > li > a {
+  display: block;
+  padding: 20px;
+  color: #303030;
+  border-bottom: 1px solid #e2e2e2;
+  text-decoration: none;
+}
+.rtfm-page #tabs #tabs_container .tab-content ul > li > a:hover {
+  color: #fff;
+}
+.rtfm-page #tabs #tabs_container .tab-content ul > li:hover {
+  background-color: #0088cc;
+}
+.rtfm-page #tabs .ui-tabs-active,
+.rtfm-page #tabs .ui-state-active {
+  background-color: #0088cc;
+}
+.rtfm-page #tabs .ui-tabs-active a,
+.rtfm-page #tabs .ui-state-active a,
+.rtfm-page #tabs .ui-tabs-active a:hover,
+.rtfm-page #tabs .ui-state-active a:hover {
+  color: #fff;
+}
+.rtfm-page #tabs .tabs-control li {
+  display: inline-block;
+}
+.rtfm-page #tabs a {
+  color: #0088cc;
+  border-bottom: 1px solid rgba(0, 136, 204, 0.5);
+}
+.rtfm-page #tabs a:hover {
+  color: #d04000;
+  border-bottom: 1px solid rgba(208, 64, 0, 0.5);
+}

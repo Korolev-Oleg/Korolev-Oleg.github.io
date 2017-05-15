@@ -1,0 +1,28 @@
+.search-form {
+  text-align: center;
+  padding: .5em;
+  background-color: #f2f2f2;
+  color: #999;
+  font-family: 'Gotham Pro';
+  font-weight: 100;
+}
+.search-form ::-webkit-input-placeholder {
+  color: #999;
+}
+.search-form :-moz-placeholder {
+  color: #999999;
+}
+.search-form ::-moz-placeholder {
+  color: #999999;
+}
+.search-form :-ms-input-placeholder {
+  color: #999999;
+}
+.search-form input {
+  border: none;
+  background-color: inherit;
+  color: #666;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 1em;
+}

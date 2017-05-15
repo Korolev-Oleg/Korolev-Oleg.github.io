@@ -1,0 +1,44 @@
+.btns {
+  -moz-box-shadow: inset 0px 1px 0px 0px #36addc;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #36addc;
+  -o-box-shadow: inset 0px 1px 0px 0px #36addc;
+  -ms-box-shadow: inset 0px 1px 0px 0px #36addc;
+  box-shadow: inset 0px 1px 0px 0px #36addc;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0097d3), color-stop(1, #007ac3));
+  background: -moz-linear-gradient(center top, #0097d3 5%, #007ac3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0097d3', endColorstr='#007ac3');
+  background-color: #007ac3;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  border: 1px solid #0277b2;
+  display: inline-block;
+  color: #f2f2f2!important;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 10px 16px 7px 16px ;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+.btns:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007ac3), color-stop(1, #0097d3));
+  background: -moz-linear-gradient(center top, #007ac3 5%, #0097d3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007ac3', endColorstr='#0097d3');
+  background-color: #007ac3;
+}
+.btns:active {
+  position: relative;
+  bottom: 1px;
+}

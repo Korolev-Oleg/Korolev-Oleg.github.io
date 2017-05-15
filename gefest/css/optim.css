@@ -1,0 +1,55 @@
+
+/*GALAXY S5*/
+@media (device-width: 360px) {
+  .logos{
+    left: 81px;
+  }
+  
+}
+/*IPHONE 5*/
+@media (device-width: 320px) {
+  .logos{
+    left: 68px;
+
+  }
+  
+}
+/*NEXUS X5*/
+@media (device-width: 411px) {
+  .logos{
+    left: 116px;
+
+  }
+  
+}
+/*NEXUS 6*/
+@media (device-width: 435px) {
+  .logos{
+    left: 118px;
+
+  }
+  
+}
+/*iphone 6*/
+@media (device-width: 375px) {
+  .logos{
+    left: 88px;
+
+  }
+  
+}
+/*iphone 6+*/
+@media (device-width: 414px) {
+  .logos{
+    left: 109px;
+
+  }
+  
+}
+/*ipad*/
+@media (max-device-width: 768px) {
+  .logos{
+    top: 41px;
+  }
+  
+}

@@ -1,0 +1,127 @@
+.services-page h1 {
+  margin: 40px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #0088cc;
+}
+@media (max-width: 780px) {
+  .services-page h1 {
+    font-size: 50px;
+  }
+}
+.services-page img {
+  width: 100%;
+  height: auto;
+}
+.services-page .prices-table:nth-of-type(1) .table-header {
+  background: url('../../../../img/img_computer_repair.html') no-repeat;
+}
+.services-page .prices-table:nth-of-type(2) .table-header {
+  background: url('../../../../img/img_tablet_repair.html') no-repeat;
+}
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  .services-page .prices-table:nth-of-type(2) td:nth-of-type(1):before {
+    content: "Услуга";
+  }
+  .services-page .prices-table:nth-of-type(2) td:nth-of-type(2):before {
+    content: "Цена";
+  }
+}
+.services-page .prices-table {
+  margin-bottom: 20px;
+}
+.services-page .prices-table h3 {
+  color: #ffffff;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 36px;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  text-transform: uppercase;
+  line-height: 46px;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.75);
+}
+@media (max-width: 780px) {
+  .services-page .prices-table h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.services-page .prices-table .table-header {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-size: cover!important;
+}
+.services-page .prices-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  color: #303030;
+}
+.services-page .prices-table th {
+  font-weight: bold;
+  font-size: 18px;
+}
+.services-page .prices-table td,
+.services-page .prices-table th {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  .services-page .prices-table {
+    /* Force table to not be like tables anymore */
+  }
+  .services-page .prices-table table,
+  .services-page .prices-table thead,
+  .services-page .prices-table tbody,
+  .services-page .prices-table th,
+  .services-page .prices-table td,
+  .services-page .prices-table tr {
+    display: block;
+  }
+  .services-page .prices-table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .services-page .prices-table tr {
+    border: 1px solid #ccc;
+  }
+  .services-page .prices-table td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+  .services-page .prices-table td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    left: 6px;
+    font-weight: bold;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+  .services-page .prices-table td:nth-of-type(1):before {
+    content: "Услуга";
+  }
+  .services-page .prices-table td:nth-of-type(2):before {
+    content: "MacBook";
+  }
+  .services-page .prices-table td:nth-of-type(3):before {
+    content: "MacBook Pro";
+  }
+  .services-page .prices-table td:nth-of-type(4):before {
+    content: "MacBook Air";
+  }
+  .services-page .prices-table td:nth-of-type(5):before {
+    content: "iMac";
+  }
+}

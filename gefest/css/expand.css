@@ -1,0 +1,7 @@
+.models .model { cursor: pointer;}
+.models .model:before {
+	content: ""; position: absolute; z-index: 10; top: 100%; left: 50%; width: 0; height: 0; border: 10px solid rgba(255, 255, 255, 0); border-bottom-color: #ffffff; cursor: default; display: none;
+}
+ .models .model.active:before { display: block;}
+ .models .expanded { clear: both; background-color: #FFFFFF; box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5); padding: 50px; margin-bottom: 20px;}
+.hidden { display: none;}

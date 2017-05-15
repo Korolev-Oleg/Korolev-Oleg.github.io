@@ -1,0 +1,44 @@
+.rtfm-inner-page h1 {
+  margin: 40px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #0088cc;
+}
+@media (max-width: 780px) {
+  .rtfm-inner-page h1 {
+    font-size: 50px;
+  }
+}
+.rtfm-inner-page .instructions-list {
+  background-color: #fff;
+}
+.rtfm-inner-page .instructions-list img {
+  width: 100%;
+}
+.rtfm-inner-page .instructions-list ul .header {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #303030;
+  color: #f2f2f2;
+  padding: 20px;
+  font-size: 12px;
+}
+.rtfm-inner-page .instructions-list ul .header:hover {
+  background-color: #303030;
+}
+.rtfm-inner-page .instructions-list ul a {
+  display: block;
+  padding: 20px;
+  color: #303030;
+  border-bottom: 1px solid #e2e2e2;
+  text-decoration: none;
+}
+.rtfm-inner-page .instructions-list ul a:hover {
+  color: #fff;
+}
+.rtfm-inner-page .instructions-list ul li:hover {
+  background-color: #0088cc;
+}

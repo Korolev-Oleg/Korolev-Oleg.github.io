@@ -1,0 +1,101 @@
+.box-shadow {
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+.models-page-parts-inner h1 {
+  margin: 40px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #0088cc;
+  line-height: 80px;
+}
+@media (max-width: 780px) {
+  .models-page-parts-inner h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+.models-page-parts-inner h2 {
+  margin: 20px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #303030;
+}
+.models-page-parts-inner p {
+  line-height: 24px;
+}
+.models-page-parts-inner strong {
+  font-weight: bold;
+}
+.models-page-parts-inner .models {
+  background-color: #fff;
+  /* padding: 50px;
+  margin-top: 40px;
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5); */
+}
+.models-page-parts-inner .models .model-expand-inner {
+  width: 130px;
+  height: 100%;
+  position: relative;
+  margin: 0 30px 30px 0;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+@media (max-width: 520px) {
+  .models-page-parts-inner .models .model-expand-inner {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+}
+.models-page-parts-inner .models .model-expand-inner h3 {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  color: #303030;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+  line-height: 19px;
+}
+.models-page-parts-inner .models .model-expand-inner .price {
+  position: absolute;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  color: #fff;
+  background-color: #0088cc;
+  padding: 5px 10px;
+  display: inline-block;
+  top: 115px;
+  left: 28px;
+}
+.models-page-parts-inner .models .model-expand-inner p {
+  margin: 10px 0;
+  line-height: 18px;
+  font-size: 12px;
+}
+
+.models-page-parts-inner .models .model-expand-inner img {
+  border: 5px solid #C4C4C4;
+  border-radius: 100px;
+}
+
+
+/*.models-page-parts-inner .models .model-expand-inner a {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  top: 0;
+  left: 0;
+}*/

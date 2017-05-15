@@ -1,0 +1,162 @@
+/* transitions */
+/* shadows */
+.box-shadow {
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+/* layout */
+.sidebar {
+  width: 13.750000em;
+  padding: 1.75em 1.25000000em 20px 0;
+  display: table-cell;
+}
+@media (max-width: 780px) {
+  .sidebar {
+    padding-right: 0;
+  }
+}
+.sidebar .facebook-plugin {
+  widows: 220px;
+  height: 300px;
+  margin-top: 20px;
+}
+.sidebar #logo {
+  text-align: center;
+  margin-top: -143px;
+}
+.sidebar #logo img {
+  margin-bottom: 20px;
+}
+.sidebar #logo a {
+  display: inline-block;
+}
+.sidebar #logo h2 {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 1.50000000em;
+  text-transform: uppercase;
+}
+.sidebar .mail-to {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: 'Gotham Pro';
+  font-weight: 100;
+}
+.sidebar .mail-to .phones {
+  line-height: 1.50000000em;
+  font-size: 1.2em;
+}
+.sidebar .mail-to .mail-adress {
+  font-size: 1em;
+  margin-top: 10px;
+}
+.sidebar .mail-to .mail-adress a {
+  color: #0088cc;
+  border-bottom: 1px solid rgba(0, 136, 204, 0.5);
+}
+.sidebar .mail-to .mail-adress a:hover {
+  color: #FF9800;
+  border-bottom: 1px solid rgba(208, 64, 0, 0.5);
+    -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -ms-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+
+}
+.sidebar .changer div:first-child {
+  margin-bottom: 20px;
+}
+@media (max-width: 780px) {
+  .sidebar .changer div:first-child {
+    margin-bottom: 2px;
+  }
+}
+.sidebar .changer .device-change,
+.sidebar .changer .parts-change {
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 780px) {
+  .sidebar .changer .device-change ul li + li,
+  .sidebar .changer .parts-change ul li + li {
+    display: none;
+  }
+}
+.sidebar .changer .device-change li,
+.sidebar .changer .parts-change li {
+  font-size: 0.750000em;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  background-color: #fff;
+  text-transform: uppercase;
+  color: #030303;
+  cursor: pointer;
+  -webkit-transition: background 0.3s ease-in;
+  -moz-transition: background 0.3s ease-in;
+  -ms-transition: background 0.3s ease-in;
+  -o-transition: background 0.3s ease-in;
+  transition: background 0.3s ease-in;
+  border-bottom: 1px solid #e2e2e2;
+}
+.sidebar .changer .device-change li:last-child,
+.sidebar .changer .parts-change li:last-child {
+  border: none;
+}
+.sidebar .changer .device-change li:hover,
+.sidebar .changer .parts-change li:hover,
+.sidebar .changer .device-change li.active,
+.sidebar .changer .parts-change li.active {
+  background-color: #FF9800;
+  color: #fff;
+  -webkit-transition: background 0.01s ease-in;
+  -moz-transition: background 0.01s ease-in;
+  -ms-transition: background 0.01s ease-in;
+  -o-transition: background 0.01s ease-in;
+  transition: background 0.01s ease-in;
+}
+@media (max-width: 780px) {
+    .sidebar .changer .device-change a,
+    .sidebar .changer .parts-change a {
+        width: 91%;
+    }
+}
+.sidebar .changer .device-change a,
+.sidebar .changer .parts-change a {
+  color: #030303;
+  display: inline-block;
+  padding: 1.200000em 1.2em 1.000000em 1.000000em;
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -ms-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+  line-height: 19px;
+  width: 16em;
+}
+.sidebar .changer .device-change a:hover,
+.sidebar .changer .parts-change a:hover,
+.sidebar .changer .device-change .active a,
+.sidebar .changer .parts-change .active a {
+  color: #fff;
+  -webkit-transition: color 0.01s ease-in;
+  -moz-transition: color 0.01s ease-in;
+  -ms-transition: color 0.01s ease-in;
+  -o-transition: color 0.01s ease-in;
+  transition: color 0.01s ease-in;
+}
+.sidebar .changer .device-change .header,
+.sidebar .changer .parts-change .header,
+.sidebar .changer .device-change .header:hover,
+.sidebar .changer .parts-change .header:hover {
+  background-color: #242424;
+  color: #f2f2f2;
+  cursor: pointer;
+  padding: 1.200000em 1.000000em 1.000000em 1.000000em;
+  border: none;
+}

@@ -1,0 +1,105 @@
+.box-shadow {
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+.parts-page h1 {
+  margin: 40px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #0088cc;
+  line-height: 65px;
+}
+@media (max-width: 780px) {
+  .parts-page h1 {
+    font-size: 50px;
+  }
+}
+.parts-page #tabs .tabs-control li a {
+  display: block;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  float: left;
+  background-color: #fff;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  color: #303030;
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+.parts-page #tabs .tabs-control li a span {
+  color: #0088cc;
+}
+.parts-page #tabs .tabs-control .ui-tabs-active a {
+  background-color: #303030;
+  color: #fff;
+}
+.parts-page #tabs .tabs-control .ui-tabs-active a span {
+  color: #fff;
+}
+.parts-page #tabs .tabs-control li:last-child {
+  margin-right: 0;
+}
+.parts-page #tabs #tabs_container {
+  padding: 30px 0;
+}
+.parts-page #tabs .part {
+  position: relative;
+  width: 220px;
+  height: 160px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+@media (max-width: 514px) {
+  .parts-page #tabs .part {
+    width: 100%;
+    height: auto;
+  }
+  .parts-page #tabs .part img {
+    width: 100%;
+    height: inherit;
+  }
+}
+.parts-page #tabs .part h3 {
+  position: absolute;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 12px;
+  width: 92%;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 18px;
+  background: transparent url(../img/gradients/header-gradient.png) repeat-x;
+  height: 125px;
+  padding: 4%;
+}
+.parts-page #tabs .part a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.parts-page #tabs .part .price {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  padding: 5px;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background-color: #0088cc;
+}

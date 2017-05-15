@@ -1,0 +1,75 @@
+.box-shadow {
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+.breadcrump {
+    background-color: #FFF;
+    margin-top: 40px;
+    position: relative;
+    height: 42px;
+    overflow: hidden;
+    box-shadow: 0px 0px 0.1125em rgba(0, 0, 0, 0.5);
+}
+.breadcrump:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 100%;
+    background: #fff;
+   z-index: 2;
+}
+.breadcrump ul {
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.breadcrump li {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #303030;
+  height: 18px;
+  vertical-align: top;
+  text-transform: uppercase;
+  padding: 12px 40px 12px 10px;
+  display: inline-block;
+  background: url('../img/img-breadcrump-divider.jpg') top right no-repeat;
+}
+
+.breadcrump .fa {
+  color: #999;
+  margin: 0 10px;
+  vertical-align: bottom;
+}
+
+.breadcrump .fa:first-child {
+  margin-right: 3px;
+}
+
+@media (max-width: 780px) {
+  .breadcrump li {
+    display: block;
+    background: none;
+  }
+}
+.breadcrump a {
+  color: #303030;
+}
+.breadcrump .active {
+  color: #838383;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+}
+.breadcrump li:last-child {
+  background: none;
+}
+.breadcrump .fa-home {
+  color: #303030;
+  font-size: 16px;
+}

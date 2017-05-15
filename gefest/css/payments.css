@@ -1,0 +1,300 @@
+.box-shadow {
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+
+.payments-page h1 {
+  margin: 40px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #0088cc;
+}
+
+@media (max-width: 780px) {
+  .payments-page h1 {
+    font-size: 50px;
+  }
+}
+
+.payments-page .order-checkout {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 0.1125em rgba(50, 50, 50, 0.24);
+  box-shadow: 0 0 0.1125em rgba(50, 50, 50, 0.24);
+  position: relative;
+}
+
+.payments-page .order-checkout .order-header {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 40px 27px 0 27px;
+}
+
+.payments-page .order-checkout .order-header .order-number {
+  margin-bottom: 25px;
+  margin-right: 5%;
+}
+
+.payments-page .order-checkout .order-header .order-number h3 {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.payments-page .order-checkout .order-header .order-number p {
+  color: #303030;
+  font-size: 14px;
+}
+
+.payments-page .order-checkout .order-header .order-descr {
+  margin-right: 5%;
+  margin-bottom: 25px;
+}
+
+.payments-page .order-checkout .order-header .order-descr .order-one-item:last-child {
+  border: none;
+}
+
+.payments-page .order-checkout .order-header .order-descr .order-one-item {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 0 15px 10px 0;
+  margin-bottom: 10px;
+}
+
+.payments-page .order-checkout .order-header .order-descr .order-one-item p {
+  color: #303030;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.payments-page .order-checkout .order-header .order-descr .order-one-item a {
+  color: #303030;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.payments-page .order-checkout .order-header .order-descr .order-one-item a:hover {
+  text-decoration: underline;
+}
+
+.payments-page .order-checkout .order-header .order-descr .order-one-item .price {
+  margin-left: 25px;
+}
+
+.payments-page .order-checkout .order-header .order-checkout-summ {
+  margin-bottom: 25px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.payments-page .order-checkout .order-header .order-checkout-summ span {
+  font-family: Arial, sans-serif;
+  color: #303030;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: none;
+  font-weight: normal;
+  margin-left: 7px;
+}
+
+.payments-page .order-checkout .contacts-info {
+  padding: 40px 27px 40px 27px;
+}
+
+.payments-page .order-checkout .contacts-info form input,
+.payments-page .order-checkout .contacts-info form select,
+.payments-page .order-checkout .contacts-info form textarea {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #030303;
+  border: none;
+  font-size: 12px;
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 10px!important;
+  margin-right: 10px!important;
+  width: 100%;
+}
+
+.payments-page .order-checkout .contacts-info form textarea {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.payments-page .order-checkout .contacts-info form .error {
+  background-color: #f4d9d9;
+  border: 1px solid #c0392b;
+}
+
+.payments-page .order-checkout .contacts-info form .for-llc {
+  max-width: 60%;
+}
+
+@media (max-width: 780px) {
+  .payments-page .order-checkout .contacts-info form .for-llc {
+    max-width: none;
+  }
+}
+
+.payments-page .order-checkout .contacts-info form .for-llc p {
+  min-width: 40%;
+}
+
+@media (max-width: 780px) {
+  .payments-page .order-checkout .contacts-info form .for-llc p {
+    min-width: 100%;
+  }
+}
+
+.payments-page .order-checkout .contacts-info form p {
+  position: relative;
+  margin-right: 8px;
+  min-width: 32%;
+}
+
+@media (max-width: 780px) {
+  .payments-page .order-checkout .contacts-info form p {
+    min-width: 100%;
+  }
+}
+
+.payments-page .order-checkout .contacts-info form p .required {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 24px;
+  color: #a3a3a3;
+  position: absolute;
+  top: 14px;
+  right: 10px;
+}
+
+.payments-page .order-checkout .contacts-info form .contact-only {
+  max-width: 60%;
+}
+
+@media (max-width: 780px) {
+  .payments-page .order-checkout .contacts-info form .contact-only {
+    max-width: none;
+  }
+}
+
+.payments-page .order-checkout .contacts-info form .how-to-find input {
+  max-width: 70%;
+}
+
+.payments-page .order-checkout .contacts-info form .how-to-find a {
+  font-size: 12px;
+  color: #0088cc;
+  border-bottom: 1px solid rgba(0, 136, 204, 0.5);
+  margin: 15px;
+  display: inline-block;
+}
+
+.payments-page .order-checkout .contacts-info form .how-to-find a:hover {
+  color: #d04000;
+  border-bottom: 1px solid rgba(208, 64, 0, 0.5);
+}
+
+.payments-page .order-checkout .contacts-info form .payment-methods label {
+  background-color: #f2f2f2;
+  position: relative;
+  padding: 50px 13px 13px 13px;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 114px;
+  height: 37px;
+}
+
+.payments-page .order-checkout .contacts-info form .payment-methods label span {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 12px;
+  color: #030303;
+  text-transform: uppercase;
+}
+
+.payments-page .order-checkout .contacts-info form .payment-methods input[type=radio] {
+  display: none;
+}
+
+.payments-page .order-checkout .contacts-info form .payment-methods input[type=radio] + img {
+  cursor: pointer;
+  position: absolute;
+  top: 13px;
+  left: 13px;
+}
+
+.payments-page .order-checkout .contacts-info form .payment-methods input[type=radio]:checked + img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.payments-page .order-checkout .contacts-info form .payment-methods input[type=radio]:checked + img + span {
+  color: #fff;
+}
+
+.payments-page .order-checkout .contacts-info form .delivery-methods label {
+  background-color: #f2f2f2;
+  position: relative;
+  padding: 13px 13px 13px 13px;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 140px;
+  height: 170px;
+}
+
+.payments-page .order-checkout .contacts-info form .delivery-methods label h5 {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 12px;
+  color: #030303;
+  text-transform: uppercase;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+
+.payments-page .order-checkout .contacts-info form .delivery-methods label span {
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  color: #303030;
+  line-height: 14px;
+}
+
+.payments-page .order-checkout .contacts-info form .delivery-methods input[type=radio] {
+  display: none;
+}
+
+.payments-page .order-checkout .contacts-info form .delivery-methods input[type=radio]:checked + h5 {
+  color: #fff;
+}
+
+.payments-page .order-checkout .contacts-info form .send-order {
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 15px 40px;
+}
+
+.payments-page .order-checkout .contacts-info h4 {
+  color: #030303;
+  margin: 20px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}

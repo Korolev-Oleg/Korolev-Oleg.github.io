@@ -1,0 +1,131 @@
+.cabinet-page {
+  /* shadows */
+}
+.cabinet-page .box-shadow {
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+.cabinet-page input,
+.cabinet-page select,
+.cabinet-page textarea {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #030303;
+  border: none;
+  font-size: 12px;
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 10px!important;
+  margin-right: 10px!important;
+  width: 100%;
+}
+.cabinet-page textarea {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.cabinet-page h1 {
+  margin: 40px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #0088cc;
+  line-height: 80px;
+}
+@media (max-width: 780px) {
+  .cabinet-page h1 {
+    font-size: 50px;
+  }
+}
+.cabinet-page h2 {
+  text-transform: uppercase;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 24px;
+  color: #000;
+  margin: 20px 0;
+}
+.cabinet-page form {
+  width: 100%;
+  max-width: 470px;
+  position: relative;
+}
+.cabinet-page form a {
+  color: #0088cc;
+  border-bottom: 1px solid rgba(0, 136, 204, 0.5);
+  font-size: 12px;
+}
+.cabinet-page form a:hover {
+  color: #d04000;
+  border-bottom: 1px solid rgba(208, 64, 0, 0.5);
+}
+.cabinet-page form p {
+  margin: 10px 0;
+}
+.cabinet-page form input:nth-of-type(1),
+.cabinet-page form input:nth-of-type(2) {
+  width: 48.3%;
+}
+@media (max-width: 520px) {
+  .cabinet-page form input:nth-of-type(1),
+  .cabinet-page form input:nth-of-type(2) {
+    width: 100%;
+  }
+}
+.cabinet-page form input:nth-of-type(2) {
+  margin-right: 0!important;
+}
+.cabinet-page form input:nth-of-type(3) {
+  width: 100%;
+}
+.cabinet-page form .fa {
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.cabinet-page form .fa-plus {
+  margin-left: 20px;
+}
+.cabinet-page form .search-serial {
+  position: absolute;
+  right: -114px;
+  margin-top: -47px;
+}
+@media (max-width: 780px) {
+  .cabinet-page form .search-serial {
+    right: 10px;
+  }
+}
+
+/* -------------------- Блок данных для юридических лиц --------------- */
+
+.cabinet-page form .show-llc {
+  margin-bottom: 20px;
+}
+
+.cabinet-page form .llc-data p {
+  position: relative;
+}
+
+.cabinet-page form .llc-data input {
+  width: 100%;
+}
+
+.cabinet-page form .llc-data .required {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 24px;
+  color: #a3a3a3;
+  position: absolute;
+  top: 14px;
+  right: 10px;
+}
+
+.cabinet-page form .show-llc a {
+  border-style: dotted;
+  cursor: pointer;
+}

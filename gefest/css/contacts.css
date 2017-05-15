@@ -1,0 +1,147 @@
+.contacts-page .google-maps {
+  position: relative;
+  padding-bottom: 280px;
+  margin-bottom: 40px;
+  height: 0;
+  overflow: hidden;
+}
+.contacts-page .google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 280px !important;
+}
+.contacts-page .tabs-control a,
+.contacts-page .tabs-control a:hover {
+  border: none!important;
+  height: inherit;
+  width: inherit;
+  display: block;
+  padding: 20px 20px;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.contacts-page h1 {
+  margin: 40px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #0088cc;
+}
+@media (max-width: 780px) {
+  .contacts-page h1 {
+    font-size: 50px;
+  }
+}
+.contacts-page #tabs ul li img {
+  vertical-align: middle;
+  margin: 0 5px 0 -5px;
+}
+.contacts-page .way-to-us {
+  width: 40%;
+  float: left;
+  margin-left: 40px;
+}
+@media (max-width: 1260px) {
+  .contacts-page .way-to-us {
+    float: none;
+    width: auto;
+    margin: 0;
+  }
+}
+.contacts-page .panoram-view p {
+  display: inline-block;
+}
+.contacts-page .serial-number {
+  padding: 40px 60px;
+  background-color: #f2f2f2;
+  border: 1px solid #e2e2e2;
+}
+@media (max-width: 520px) {
+  .contacts-page .serial-number {
+    padding: 10px;
+  }
+}
+.contacts-page .serial-number .find-serial {
+  float: left;
+}
+.contacts-page .serial-number .find-serial:nth-of-type(2) {
+  margin-top: 5px;
+}
+.contacts-page .serial-number .find-serial:nth-of-type(3) {
+  width: 80%;
+}
+.contacts-page .fa-video-camera,
+.contacts-page .fa-laptop {
+  color: #543a54;
+  font-size: 24px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.contacts-page #tabs {
+  background-color: #fff;
+}
+.contacts-page #tabs #tabs_container {
+  padding: 40px;
+  border-top: 5px solid #0088cc;
+}
+@media (max-width: 520px) {
+  .contacts-page #tabs #tabs_container {
+    padding: 10px;
+  }
+}
+.contacts-page #tabs .ui-tabs-active,
+.contacts-page #tabs .ui-state-active {
+  background-color: #0088cc;
+}
+.contacts-page #tabs .ui-tabs-active a,
+.contacts-page #tabs .ui-state-active a,
+.contacts-page #tabs .ui-tabs-active a:hover,
+.contacts-page #tabs .ui-state-active a:hover {
+  color: #fff;
+}
+.contacts-page #tabs p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.contacts-page #tabs a {
+  color: #0088cc;
+  border-bottom: 1px solid rgba(0, 136, 204, 0.5);
+}
+.contacts-page #tabs .tabs-control li {
+  display: inline-block;
+}
+.contacts-page #tabs a:hover {
+  color: #d04000;
+  border-bottom: 1px solid rgba(208, 64, 0, 0.5);
+}
+.contacts-page #tabs .big-phone-numbers {
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 49%;
+}
+@media (max-width: 1020px) {
+  .contacts-page #tabs .big-phone-numbers {
+    display: block;
+    width: auto;
+  }
+}
+.contacts-page #tabs .big-phone-numbers li:nth-of-type(1) {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.contacts-page #tabs .big-phone-numbers li {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  float: none;
+}

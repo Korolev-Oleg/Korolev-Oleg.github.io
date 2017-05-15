@@ -1,0 +1,109 @@
+.registration-page h1 {
+  margin: 40px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #0088cc;
+  line-height: 80px;
+}
+@media (max-width: 780px) {
+  .registration-page h1 {
+    font-size: 32px;
+  }
+}
+.registration-page h2,
+.registration-page h3 {
+  text-transform: uppercase;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 24px;
+  color: #000;
+  margin: 20px 0;
+}
+.registration-page h3 {
+  font-size: 18px;
+  margin-top: 40px;
+}
+.registration-page .box-shadow {
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+.registration-page input,
+.registration-page select,
+.registration-page textarea {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #030303;
+  border: none;
+  font-size: 12px;
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 10px!important;
+  margin-right: 10px!important;
+  width: 100%;
+}
+.registration-page textarea {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.registration-page form {
+  width: 100%;
+  max-width: 470px;
+  position: relative;
+}
+.registration-page form .error {
+  background-color: #f4d9d9;
+  border: 1px solid #c0392b;
+}
+.registration-page form a {
+  color: #0088cc;
+  border-bottom: 1px solid rgba(0, 136, 204, 0.5);
+  font-size: 12px;
+  margin-left: 20px;
+}
+.registration-page form a:hover {
+  color: #d04000;
+  border-bottom: 1px solid rgba(208, 64, 0, 0.5);
+}
+.registration-page form p {
+  margin: 10px 0;
+  position: relative;
+}
+.registration-page form p .required {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 24px;
+  color: #a3a3a3;
+  position: absolute;
+  top: 14px;
+  right: 10px;
+}
+.registration-page form p .fa-check {
+  color: #27ae60;
+}
+.registration-page form p .fa-times {
+  color: #c0392b;
+}
+.registration-page form p .fa-plus {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.registration-page form p .icon {
+  top: 10px;
+}
+.registration-page form .search-serial {
+  position: absolute;
+  right: -114px;
+  margin-top: -47px;
+}
+@media (max-width: 780px) {
+  .registration-page form .search-serial {
+    right: 10px;
+  }
+}

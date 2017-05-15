@@ -1,0 +1,99 @@
+.news div {
+  display: inline-block;
+  margin: 0 1.250em 20px 0;
+  /* ------------------------------------------------- 03.03.2014 
+  -webkit-transition: background-size 0.2s linear;
+  -moz-transition: background-size 0.2s linear;
+  -ms-transition: background-size 0.2s linear;
+  -o-transition: background-size 0.2s linear;
+  transition: background-size 0.2s linear;
+  ---------------------------------------------------- 03.03.2014 */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  width: 340px;
+  height: 240px;
+}
+@media (max-width: 1740px) {
+  .news div {
+    width: 300px;
+  }
+}
+@media (max-width: 1260px) {
+  .news div {
+    width: 340px;
+  }
+}
+@media (max-width: 1020px) {
+  .news div {
+    width: 220px;
+  }
+}
+@media (max-width: 780px) {
+  .news div {
+    width: 100%;
+    margin: 0 0 20px 0; 
+  }
+}
+
+/* ------------------------------------------------- 03.03.2014 
+.news div:hover {
+  -webkit-transition: background-size 5s linear;
+  -moz-transition: background-size 5s linear;
+  -ms-transition: background-size 5s linear;
+  -o-transition: background-size 5s linear;
+  transition: background-size 5s linear;
+  background-size: 150% 150%;
+}
+---------------------------------------------------- 03.03.2014 */
+.news h4 {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.875em;
+  line-height: 24px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  color: #303030;
+}
+/*.news a {
+  display: block;
+  width: 300px;
+  height: 240px;
+}*/
+.news .news-column-1 {
+  background: url(../img/img_news_column_1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.news .news-column-2 {
+  background: url(../img/img_news_column_2.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+@media (max-width: 780px) {
+  .news .news-column-2 {
+    margin-right: 0;
+  }
+}
+.news .news-column-3 {
+  background: url(../img/img_news_column_3.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.news .news-column-4 {
+  background: url(../img/img_news_column_1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+@media (max-width: 780px) {
+  .news .news-column-4 {
+    margin-right: 0;
+  }
+}
+.news h5 {
+  padding: 1em;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.785em;
+  background: transparent url(../img/gradients/header-gradient.png) repeat-x;
+  height: 125px;
+}

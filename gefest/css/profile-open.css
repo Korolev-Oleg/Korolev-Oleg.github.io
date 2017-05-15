@@ -1,0 +1,141 @@
+/* inputs */
+input[type=text],
+input[type=password],
+textarea {
+  outline: none;
+  padding: 10px 0px 9px 9px;
+  margin: 5px 1px 3px 0px;
+}
+input[type=text]:focus,
+textarea:focus {
+  padding: 10px 0px 9px 9px;
+  margin: 5px 1px 3px 0px;
+}
+/* placeholders color */
+::-webkit-input-placeholder {
+  color: #030303;
+}
+:-moz-placeholder {
+  color: #030303;
+}
+::-moz-placeholder {
+  color: #030303;
+}
+:-ms-input-placeholder {
+  color: #030303;
+}
+/* Transitions */
+/* shadows */
+.box-shadow {
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+.profile-open {
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  width: 222px;
+  /* float: right; */
+  z-index: 99;
+  border-top: 5px solid #0088cc;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50px;
+  right: 98px;
+  /*@media (max-width: 1260px) {
+		margin-right: 1.5em;
+	}*/
+}
+@media (max-width: 340px) {
+  .profile-open {
+    right: 50px;
+  }
+}
+.profile-open .form-login {
+  padding: 1.5em 2em 1.5em 1.4em;
+}
+.profile-open .form-login p {
+  margin: 0.50000em 0;
+}
+.profile-open .form-login .registration,
+.profile-open .form-login .restore-pass {
+  padding-left: 0.750000em;
+}
+.profile-open .form-login input,
+.profile-open .form-login select,
+.profile-open .form-login textarea {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #030303;
+  border: none;
+  font-size: 1em;
+  width: 100%;
+  box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0 0.1125em rgba(0, 0, 0, 0.5);
+}
+.profile-open .form-login a {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  color: #0088cc;
+  border-bottom: 1px solid rgba(0, 136, 204, 0.5);
+  text-transform: none;
+}
+.profile-open .form-login a:hover {
+  color: #d04000;
+  border-bottom: 1px solid rgba(208, 64, 0, 0.5);
+}
+.profile-open .form-login .sign-in {
+  margin-top: 1.333em;
+}
+.profile-open .options-list {
+  text-transform: uppercase;
+}
+.profile-open .options-list li {
+  display: block;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e2e2;
+}
+.profile-open .options-list li a {
+  color: #030303;
+  line-height: 40px;
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -ms-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+}
+.profile-open .options-list li a .orders-count {
+  text-align: right;
+  float: right;
+  line-height: 10px;
+  margin-top: 10px;
+  padding: 5px 8px;
+  background-color: #0088cc;
+  border-radius: 10px;
+  color: #fff;
+}
+.profile-open .options-list li a:hover {
+  color: #fff;
+  -webkit-transition: color 0.01s ease-in;
+  -moz-transition: color 0.01s ease-in;
+  -ms-transition: color 0.01s ease-in;
+  -o-transition: color 0.01s ease-in;
+  transition: color 0.01s ease-in;
+}
+.profile-open .options-list li a:hover :first-child {
+  color: #030303;
+  background-color: #fff;
+}
+.profile-open .options-list li:last-child {
+  border: none;
+}

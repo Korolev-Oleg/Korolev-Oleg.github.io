@@ -1,0 +1,162 @@
+.orders-page h1 {
+  margin: 40px 0;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #0088cc;
+  line-height: 80px;
+}
+@media (max-width: 780px) {
+  .orders-page h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+.orders-page #tabs {
+  background-color: #fff;
+}
+.orders-page #tabs .tabs-control a,
+.orders-page #tabs .tabs-control a:hover {
+  border: none!important;
+  height: inherit;
+  width: inherit;
+  display: block;
+  padding: 20px 20px;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.orders-page #tabs #tabs_container {
+  border-top: 5px solid #0088cc;
+  position: relative;
+}
+.orders-page #tabs #tabs_container .order-info {
+  padding: 40px;
+  border-bottom: 1px solid #e2e2e2;
+}
+@media (max-width: 780px) {
+  .orders-page #tabs #tabs_container .order-info {
+    padding: 10px;
+  }
+}
+.orders-page #tabs #tabs_container .order-info .additional-info .show-info {
+  margin-bottom: 20px;
+}
+.orders-page #tabs #tabs_container .order-info .additional-info .show-info a {
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  font-size: 11px;
+}
+.orders-page #tabs #tabs_container .order-info .additional-info .show-info .fa {
+  color: #020202;
+  font-size: 11px;
+}
+.orders-page #tabs #tabs_container .order-info .additional-info .show-info .openClosed {
+  transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+.orders-page #tabs #tabs_container .order-info .additional-info p {
+  color: #303030;
+  line-height: 24px;
+  font-size: 14px;
+}
+.orders-page #tabs #tabs_container .order-info .order-column :last-child {
+  border: none!important;
+}
+.orders-page #tabs #tabs_container .order-info .order-column :first-child {
+  padding-top: 0!important;
+}
+.orders-page #tabs #tabs_container .order-info .order-column:nth-of-type(3) {
+  position: relative;
+  padding: 40px 0;
+  background-color: #f2f2f2;
+  margin-right: 0;
+}
+.orders-page #tabs #tabs_container .order-info .order-column:nth-of-type(3) img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.orders-page #tabs #tabs_container .order-info .order-column:nth-of-type(3) h5 {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 40px;
+}
+.orders-page #tabs #tabs_container .order-info .order-column:nth-of-type(3) h5 span {
+  font: normal 12px Arial, sans-serif;
+  margin-left: 10px;
+}
+.orders-page #tabs #tabs_container .order-info .order-column {
+  float: left;
+  margin-right: 1%;
+  width: 32%;
+  margin-bottom: 10px;
+}
+@media (max-width: 780px) {
+  .orders-page #tabs #tabs_container .order-info .order-column {
+    width: 100%;
+  }
+}
+.orders-page #tabs #tabs_container .order-info .order-column h3 {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.orders-page #tabs #tabs_container .order-info .order-column .date {
+  color: #303030;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.orders-page #tabs #tabs_container .order-info .order-column .status {
+  color: #303030;
+  font-size: 11px;
+  margin-top: 10px;
+}
+.orders-page #tabs #tabs_container .order-info .order-column .status span {
+  color: red;
+}
+.orders-page #tabs #tabs_container .order-info .order-column .item {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 10px 0;
+}
+.orders-page #tabs #tabs_container .order-info .order-column .item p {
+  float: left;
+  margin-right: 20px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.orders-page #tabs #tabs_container .order-info .order-column .item p:nth-of-type(1) {
+  width: 50%;
+}
+.orders-page #tabs #tabs_container .order-info .order-column .item p:nth-of-type(2) {
+  margin-right: 0;
+}
+.orders-page #tabs .ui-tabs-active,
+.orders-page #tabs .ui-state-active {
+  background-color: #0088cc;
+}
+.orders-page #tabs .ui-tabs-active a,
+.orders-page #tabs .ui-state-active a,
+.orders-page #tabs .ui-tabs-active a:hover,
+.orders-page #tabs .ui-state-active a:hover {
+  color: #fff;
+}
+.orders-page #tabs .tabs-control li {
+  display: inline-block;
+}
+.orders-page #tabs a {
+  color: #0088cc;
+  border-bottom: 1px solid rgba(0, 136, 204, 0.5);
+}
+.orders-page #tabs a:hover {
+  color: #d04000;
+  border-bottom: 1px solid rgba(208, 64, 0, 0.5);
+}

@@ -1,0 +1,185 @@
+/* transitions */
+.wrapper {
+  display: table-cell;
+  /* max-width: 1460px; */
+}
+.wrapper .slider {
+  width: 460px;
+  height: 340px;
+  position: relative;
+  margin: 0 20px 20px 0;
+  float: left;
+}
+@media (max-width: 780px) {
+  .wrapper .slider {
+    margin: 0 0 20px 0;
+    width: 100%;
+    height: auto;
+  }
+  .wrapper .slider img {
+    width: 100%;
+  }
+}
+.wrapper .slider #slides {
+  position: relative;
+}
+.wrapper .slider #slides .slidesjs-pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.wrapper .slider #slides .slidesjs-previous,
+.wrapper .slider #slides .slidesjs-next,
+.wrapper .slider #slides .slidesjs-play,
+.wrapper .slider #slides .slidesjs-stop {
+  display: none!important;
+}
+.wrapper .slider #slides a {
+  width: inherit;
+  height: inherit;
+}
+.wrapper .slider #slides .slidesjs-pagination li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.wrapper .slider #slides .slidesjs-pagination li a {
+  display: inline-block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../img/slider/pagination.png);
+  background-position: 0 0;
+  overflow: hidden;
+}
+.wrapper .slider #slides .slidesjs-pagination li a.active,
+.wrapper .slider #slides .slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px;
+}
+.wrapper .slider #slides .slidesjs-pagination li a:hover {
+  background-position: 0 -26px;
+}
+.wrapper .slider h3 {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  position: absolute;
+  width: 80%;
+  font-size: 2em;
+  margin: .7em 0 0 .6em;
+  z-index: 90;
+  line-height: 36px;
+}
+@media (max-width: 520px) {
+  .wrapper .slider h3 {
+    font-size: 1.5em;
+    line-height: 28px;
+  }
+}
+.wrapper .offers {
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.wrapper .offers a {
+  position: absolute;
+  bottom: 2em;
+  left: 1.6em;
+}
+.wrapper .offers div {
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  display: block;
+  position: relative;
+  width: 460px;
+  height: 220px;
+  cursor: pointer;
+  -webkit-transition: background-size 0.2s linear;
+  -moz-transition: background-size 0.2s linear;
+  -ms-transition: background-size 0.2s linear;
+  -o-transition: background-size 0.2s linear;
+  transition: background-size 0.2s linear;
+  background-size: auto!important;
+}
+@media (max-width: 1260px) {
+  .wrapper .offers div {
+    width: 340px;
+  }
+}
+@media (max-width: 1020px) {
+  .wrapper .offers div {
+    width: 460px;
+  }
+}
+.wrapper .offers div:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 150% 150%;
+  -webkit-transition: background-size 5s linear;
+  -moz-transition: background-size 5s linear;
+  -ms-transition: background-size 5s linear;
+  -o-transition: background-size 5s linear;
+  transition: background-size 5s linear;
+}
+.wrapper .offers .offer-1 {
+  background: url('../img/img_big_offer_1.jpg') no-repeat;
+  background-size: 100% 100%;
+}
+.wrapper .offers .offer-1 h3 {
+  color: #fff;
+}
+.wrapper .offers .offer-2 {
+  background: url('../img/img_big_offer_2.jpg') no-repeat;
+  background-size: 100% 100%;
+}
+.wrapper .offers .offer-2 h3 {
+  color: #030303;
+}
+.wrapper .offers .offer-3 {
+  background: url('../img/img_big_offer_3.jpg') no-repeat;
+  background-size: 100% 100%;
+}
+.wrapper .offers .offer-3 h3 {
+  color: #030303;
+}
+.wrapper .offers .offer-3 p {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  width: 20em;
+  margin-top: 1em;
+  margin-left: 1.6em;
+}
+.wrapper .offers .offer-3 a {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.wrapper .offers .big:last-child {
+  margin-right: 0;
+}
+.wrapper .offers .big {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+@media (max-width: 780px) {
+  .wrapper .offers .big {
+    margin: 0 0 20px 0;
+    width: 100%;
+    background-size: cover!important;
+  }
+}
+.wrapper .offers .big h3 {
+  margin-top: 1em;
+  margin-left: 1em;
+  width: 80%;
+  font-size: 1.125000em;
+  line-height: 1.500000em;
+}
+@media (max-width: 1740px) {
+  .wrapper .offers .offer-3 {
+    display: none;
+  }
+}
