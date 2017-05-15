@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Фрукты Продукты</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="../favicon.png" />
+</head>
+<body>
+	<style type="text/css">body{margin: 0; padding:0; overflow: hidden;}</style>
+	<div class="container">
+		<embed class="requisites" height="" src="requisites.pdf" style="width: 100%;"/>
+	</div>
+	<script src="../libs/jquery/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			height = $(window).height();
+    		$( ".requisites" ).css( "height", height+"px" );
+		});
+	</script>
+</body>
+</html>

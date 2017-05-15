@@ -1,0 +1,74 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width:1200px) {
+	.contacts_map { height: 65px; }
+	.corner { top: 34.9%; }
+	.main-col { left: 0; }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width:992px) {
+	.personal_last_block { margin-top: 35px; }
+	.contacts_map { height: 85px; }
+	.corner { top: 36.2%; }
+	.phone { text-align: left; }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width:768px) {
+	.resume_container .left, .section_content .resume_container h3, .resume_container .resume_icon { text-align: left; margin-bottom: 10px; }
+	.resume_container .left h3 { margin-top: 0; }
+	.contacts_bottom { padding-top: 10px; font-size: 10px; letter-spacing: 1px; }
+	.attainment img { max-width: 220px; }
+	.fa-phone { margin-left: 0; }
+	.requisites { top: -11px; }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width:480px) {
+	#map { height: 400px; }
+	.fadeOutUp { animation-name: min; }
+	.top_wrapper .top_text h1 { font-size: 2em;	/*padding-left: 10px;*/	/*padding-right: 10px;*/ }
+	.main_footer { text-align: left; }
+	.main_footer .social_wrap {	/*float: left;*/ /*margin-top: 20px;*/ /*width: 100%;*/ }
+	.main_footer .social_wrap ul { /*padding-left: 0;*/ }
+	.contacts_bottom { padding-top: 10px; font-size: 10px; letter-spacing: 1px; }
+	.contacts_bottom i { padding-left: 0%; }
+	.fa-phone { margin-left: 0; }
+	.contacts_map { height: 120px; }
+	.corner { top: 47%; }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width:320px) {
+	.fa-phone { margin-left: 0; }
+	.contacts_map { height: 130px; }
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width:320px) {
+	.fa-phone { margin-left: 0; }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width:480px) {
+	.fa-phone { margin-left: 0; }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width:768px) {
+	.fa-phone { margin-left: 0; }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width:992px) {
+	.fa-phone { margin-left: 0; }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width:1200px) {
+	.fa-phone { margin-left: 50%; }
+}

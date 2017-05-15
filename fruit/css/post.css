@@ -1,0 +1,177 @@
+body {
+  color: #ffffff;
+}
+a {
+  color: #ffffff;
+}
+a:hover{
+  color: #fcad2b;
+}
+p, body .main_footer, .s_about li {
+  color: #fffaed;
+}
+.color_element {
+  color: #3ea7b7;
+}
+.color_bg {
+  background-color: #3ea7b7;
+}
+.color_border {
+  border-color: #3ea7b7;
+}
+.bg_light {
+  /*background-color: #4aca41;*/
+  background-color: #47b73f;
+  /*background-image: url(../img/greenBg.jpg);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg_dark {
+  background-color: #3ea037;
+  color: #fff;
+}
+.bg_dark .s_descr::after {
+  background-color: #fff;
+}
+.bg_dark a {
+  color: #fff;
+}
+.top_mnu a:hover {
+  color: #3ea7b7;
+}
+.top_mnu a {
+  letter-spacing: 4px;
+}
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px;
+}
+.personal_header {
+  letter-spacing: 2px;
+}
+.s_descr {
+  letter-spacing: 4px;
+}
+.s_descr::after {
+  background-color: #222;
+}
+section h3 {
+  letter-spacing: 3px;
+  color: #888;
+}
+.s_about p:nth-child(odd) {
+  color: #fafcc9;
+}
+.resume_container h3 {
+  color: #3ea7b7;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.resume_item .year {
+  background-color: #3eb746;
+  color: #fff;
+}
+.resume_item .resume_description {
+  letter-spacing: 1px;
+}
+.s_portfolio li {
+  color: #888;
+  letter-spacing: 2px;
+}
+.s_portfolio li.active {
+  color: #fff;
+  border-bottom: 1px solid #3ea7b7;
+}
+.portfolio_item .port_item_cont a {
+  border-color: #3ea7b7;
+  color: #3ea7b7;
+}
+.main_footer a {
+  color: #3ea7b7;
+}
+.contacts_icon {
+  color: #3ea7b7;
+}
+.text-danger {
+  color: #3ea7b7;
+}
+form input:focus, form textarea:focus {
+  border: 1px solid #3ea7b7;
+}
+form input, form textarea {
+  letter-spacing: 2px;
+}
+form button {
+  background-color: #3ea7b7;
+  letter-spacing: 2px;
+}
+form .form-group {
+  letter-spacing: 2px;
+  color: #888;
+}
+.popup_content {
+  letter-spacing: 1px;
+}
+.contacts_bottom li {
+  font-size: 11px;
+  letter-spacing: 1px;
+  display: inline-block;
+  list-style-type: none;
+}
+.contacts_bottom {
+  top: 15px;
+  font-size: 12px;
+  position: relative;
+  margin-bottom: 130px;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
+.contacts_bottom i {
+  display: inline-block;
+  list-style-type: none;
+}
+.corner {
+  width: 242px;
+  height: 94px;
+  position: absolute;
+  left: 50%;
+  z-index: 100;
+  margin-left: -107px;
+  text-align: center;
+  padding: 0 0 30px;
+  background-image: url(../img/corner.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 34%;
+}
+.contacts_map {
+  background-color: #3ea037;
+  margin-bottom: 0;
+  height: 54px;
+}
+#about {
+  overflow: hidden;
+}
+.section_animate {
+  margin-bottom: -100px;
+}
+.requisites {
+  position: absolute;
+  top: -3px;
+  text-transform: initial;
+}
+.fadein {
+  position: absolute;
+  top: 5px;
+  left: 38px;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.main-col{
+  max-height: 42px;
+  left: 65px;
+}
+.phone {
+  text-align: right;
+}
