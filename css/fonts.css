@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "GothaProBla";
+  src: url("../fonts/Gotham Cyrillic/GothaProBla.otf") format("opentype");
+}
+@font-face {
+  font-family: "GothaProLig";
+  src: url("../fonts/Gotham Cyrillic/GothaProLig.otf") format("opentype");
+}
