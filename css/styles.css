@@ -509,7 +509,7 @@ ol, ul{
 /*greeting*/
 .greeting {
 	overflow: hidden;
-	display: none;
+	/*display: none;*/
 }
 .greeting .shirm {
 	z-index: 10000;
