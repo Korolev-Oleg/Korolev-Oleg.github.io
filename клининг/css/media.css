@@ -1,0 +1,41 @@
+@media only screen and (min-width : 1200px) {
+	.container{
+		width: 970px !important;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	.cont span{
+		float: none;
+	}
+	.cont{
+		text-align: center;
+	}
+	.cont g{
+		margin-left: 4px;
+	}
+	.tag_outLine{
+		height: 269px; 348px
+	}
+	.row.butt{
+		text-align: center;
+		margin-left: -15px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.tag_outLine{
+		height: 348px;
+	}
+	.row.butt{
+		text-align: center;
+		margin-left: -15px;
+	}
+	.top_wrapper .top_text{
+		height: 153px;
+	}
+	.service{
+		float: none;
+		width: auto;
+	}
+}
