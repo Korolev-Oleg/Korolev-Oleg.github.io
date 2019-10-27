@@ -29,12 +29,20 @@
     <meta property="og:description" content="" />
     <meta property="og:site_name" content="" />
     <meta property="fb:admins" content="" />
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=d7ff3169-1b40-44a9-bed3-e2401872434d&lang=ru_RU" type="text/javascript">
-    </script>
   </head>
   <body>
     <nav id="menu">
-      <h2>Menu</h2>
+      <div class="toggles">
+        <a href="#" class='lang'>Русский</a>
+        <button class="close-button"><i class='i-cancel'></i></button>
+      </div>
+      <ul>
+        <li><a href=index.html>Главная</a></li>
+        <li><a href=about.html>О нас</a></li>
+        <li><a href=service.html>Услуги</a></li>
+        <li><a href=news.html>Новости</a></li>
+        <li><a href=shop.html>Магазин</a></li>
+      </ul>
     </nav>
     <!-- BEGIN content -->
     <div class="content" id="content">
@@ -72,16 +80,16 @@
         <div class="header-main">
           <div class="container grid" data-slideout-ignore>
             <div class="sm-hidden">
-              <button class="toggle-button">☰</button>
+              <button class="toggle-button sld"><i class='i-menu'></i></button>
               <img src="./img/logo-clear.svg" alt="">
             </div>
             <nav class="menu">
               <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="about.html">О нас</a></li>
-                <li><a href="service.html">Услуги</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="shop.html">Магазин</a></li>
+                <li><a href=index.html>Главная</a></li>
+                <li><a href=about.html>О нас</a></li>
+                <li><a href=service.html>Услуги</a></li>
+                <li><a href=news.html>Новости</a></li>
+                <li><a href=shop.html>Магазин</a></li>
               </ul>
             </nav>
             <a href="#" class="btn-feed">обратная связь</a>
