@@ -1,4 +1,4 @@
-[open portfolio](https://korolev-oleg.github.io/)
+[open portfolio](https://korolev-oleg.github.io/portfolio)
 
 ## steam sales
 [preview](/steamsales)
