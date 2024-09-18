@@ -1,9 +1,5 @@
 [open portfolio](https://korolev-oleg.github.io/portfolio-v2)
 
-## steam sales
-[preview](/steamsales)
-![image](https://user-images.githubusercontent.com/18235953/184239752-54045dbe-6ce6-43ee-a20e-d290091d7103.png)
-
 ## prodlogistica
 [preview](/prodlogistica)
 ![image](https://user-images.githubusercontent.com/18235953/184240354-e36149c2-3c3e-45ab-8b06-2735cd4c3562.png)
@@ -12,6 +8,9 @@
 [preview](/cleaning)
 ![image](https://user-images.githubusercontent.com/18235953/184240959-91a7675e-57d5-4d9e-b6bd-4788040085e6.png)
 
+## steam sales
+[preview](/steamsales)
+![image](https://user-images.githubusercontent.com/18235953/184239752-54045dbe-6ce6-43ee-a20e-d290091d7103.png)
 
 ## fruitproducts
 [preview](/fruit)
